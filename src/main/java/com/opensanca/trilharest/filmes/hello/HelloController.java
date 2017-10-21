@@ -16,4 +16,6 @@ public class HelloController {
         return "Hello";
     }
 
+    @RequestMapping(path="test", method = {RequestMethod.GET})
+    public String test(){return "Test";}
 }

@@ -1,5 +1,7 @@
 package com.opensanca.trilharest.filmes.filmes;
 
+import org.apache.tomcat.jni.Local;
+
 import java.time.Duration;
 import java.time.LocalDate;
 import java.util.UUID;
@@ -14,6 +16,18 @@ public class Filme {
     private Duration duracao;
     private LocalDate inicioExibicao;
     private LocalDate fimExibicao;
+
+    public Filme() {
+    }
+
+    public Filme(UUID id, String nome, String sinopse, Duration duracao, LocalDate inicioExibicao, LocalDate fimExibicao) {
+        this.id = id;
+        this.nome = nome;
+        this.sinopse = sinopse;
+        this.duracao = duracao;
+        this.inicioExibicao = inicioExibicao;
+        this.fimExibicao = fimExibicao;
+    }
 
     public UUID getId() {
         return id;
@@ -62,4 +76,14 @@ public class Filme {
     public void setFimExibicao(LocalDate fimExibicao) {
         this.fimExibicao = fimExibicao;
     }
+
+    public boolean emExibicao(LocalDate referencia) {
+        if(getInicioExibicao() == null || getFimExibicao() == null) return false;
+        LocalDate hoje = LocalDate.now();
+        LocalDate inicio = getInicioExibicao();
+        boolean hojeDepoisDoInicio = inicio.isEqual(referencia) && inicio.isAfter(referencia);
+        boolean hojeAntesDoInicio = inicio.isEqual(referencia) && inicio.isBefore(referencia);
+        return hojeDepoisDoInicio;
+    }
+
 }
