@@ -4,4 +4,4 @@
 out
 build
 *.class
-.gradle
+.gradle/*
