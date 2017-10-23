@@ -11,7 +11,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/trilharest.jar" afterPath="$PROJECT_DIR$/build/libs/trilharest.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trilharest.iws" afterPath="$PROJECT_DIR$/trilharest.iws" />
     </list>
@@ -1141,7 +1140,7 @@
       <workItem from="1508548135867" duration="6264000" />
       <workItem from="1508586508416" duration="7570000" />
       <workItem from="1508594290588" duration="1078000" />
-      <workItem from="1508600147653" duration="9436000" />
+      <workItem from="1508600147653" duration="10319000" />
     </task>
     <servers />
   </component>
@@ -1178,7 +1177,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35972000" />
+    <option name="totallyTimeSpent" value="36855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1368" height="741" extended-state="6" />
@@ -1267,7 +1266,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1323,7 +1322,7 @@
         <state relative-caret-position="705">
           <caret line="56" column="28" lean-forward="false" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1449,7 +1448,7 @@
         <state relative-caret-position="210">
           <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1488,7 +1487,7 @@
         <state relative-caret-position="156">
           <caret line="43" column="46" lean-forward="false" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
